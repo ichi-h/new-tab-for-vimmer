@@ -1,7 +1,7 @@
 {
   "name": "new-tab-for-vimmer",
   "version": "0.1.0",
-  "license": "VIM",
+  "license": "Vim",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
