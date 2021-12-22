@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.1.5",
+    "@types/chrome": "^0.0.171",
     "prettier": "^2.5.1",
     "typescript": "^4.4.4",
     "vite": "^2.7.2"
