@@ -1,0 +1,12 @@
+{
+  "name": "Newtab for Vimmer",
+  "manifest_version": 2,
+  "description": "A newtab extension for all vimmers.",
+  "version": "0.1.0",
+  "permissions": [
+    "bookmarks"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "./dist/index.html"
+  }
+}
