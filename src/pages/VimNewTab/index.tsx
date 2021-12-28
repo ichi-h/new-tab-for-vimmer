@@ -1,3 +1,9 @@
+import { Bookmarks } from "../../components/bookmarks";
+
 export function VimNewTab() {
-  return <></>;
+  return (
+    <div className="newtab">
+      <Bookmarks />
+    </div>
+  );
 }
