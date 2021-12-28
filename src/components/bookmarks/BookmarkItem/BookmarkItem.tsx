@@ -1,5 +1,14 @@
-interface Props {}
+interface Props {
+  title: string;
+  url: string;
+}
 
 export function BookmarkItem(props: Props) {
-  return <></>;
+  return (
+    <>
+      <p>
+        {props.title}: {props.url}
+      </p>
+    </>
+  );
 }

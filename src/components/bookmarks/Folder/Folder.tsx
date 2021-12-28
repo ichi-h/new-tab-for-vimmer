@@ -1,5 +1,12 @@
-interface Props {}
+interface Props {
+  title: string;
+  dir: string;
+}
 
 export function Folder(props: Props) {
-  return <></>;
+  return (
+    <>
+      <p>{props.title}/</p>
+    </>
+  );
 }
